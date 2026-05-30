@@ -2,10 +2,12 @@
 	- character template
 	  template:: strahd character
 	  template-including-parent:: false
-		- race::
+		- template-type:: character
+		  race::
 		  class::
 		  location::
 	- location template
 	  template:: strahd location
 	  template-including-parent:: false
-		- type::
+		- template-type:: location
+		  type::
