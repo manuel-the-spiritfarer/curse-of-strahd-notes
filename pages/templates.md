@@ -11,3 +11,8 @@
 	  template-including-parent:: false
 		- template-type:: location
 		  type::
+	- document template
+	  template:: strahd document
+	  template-including-parent:: false
+		- template-type:: document
+		  type::
